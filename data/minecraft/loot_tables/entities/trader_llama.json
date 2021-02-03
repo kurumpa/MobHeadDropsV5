@@ -56,9 +56,9 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{Variant:0}"
+                    "nbt": "{powered:1b}"
                   },
-                  "entity": "this"
+                  "entity": "killer"
                 }
               ]
             },
