@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:creeper,nbt={powered:1b},tag=!mhd_equipped_creeper] at @s run function mhd:equip_head_hunter
+execute as @e[type=minecraft:turtle,tag=mhd_head_hunter] at @s run execute unless entity @e[distance=..2,type=minecraft:creeper,tag=mhd_equipped_creeper,nbt={powered:1b}] run function mhd:head_hunter_tick

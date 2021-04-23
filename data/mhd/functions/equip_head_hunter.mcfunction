@@ -1,0 +1,2 @@
+tp @s ~ -500 ~
+summon creeper ~ ~ ~ {powered:1b,Tags:["mhd_equipped_creeper"],Passengers:[{id:turtle, Invulnerable:1b, Age:-2147483647, ActiveEffects:[{Id:14,Amplifier:0,Duration:2147483647,ShowParticles:0b}], NoAI:1b, Tags:["mhd_head_hunter"]}]}
